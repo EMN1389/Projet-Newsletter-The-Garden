@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/*section carte de fidélité*/
+.fidelité h1 {
+  color: #38d0ab;
+}
+.fidelité li {
+  list-style: none;
+  line-height: 20px;
+}
+.fidelité img {
+  display: none;
+}
+
+/*footer*/
+footer {
+  background-color: #84DE33;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20%;
+}
+footer .reseaux-socio {
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+}
+footer .reseaux-socio a:nth-child(3) img {
+  width: 80px;
+}
+footer ul {
+  margin-bottom: 50px;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+}
+footer ul li a a:nth-child(2) {
+  margin-bottom: 10px;
+  background-color: yellow;
+}
+footer p {
+  line-height: 5px;
+}
+footer .desa {
+  margin-top: 30px;
+}
+footer .desa p {
+  line-height: 20px;
+}
+footer .desa a {
+  color: #38d0ab;
+}
+
+/*fin du footer*//*# sourceMappingURL=main.css.map */

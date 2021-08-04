@@ -1,0 +1,71 @@
+$colors: (
+  bleu: #38d0ab,
+  grey: #707070,
+  dark-green: #224127,
+  medium-green: #219e13,
+  red: #ff0000,
+  greenfooter: #84DE33,
+  white: #ffffff,
+);
+
+@function color ($color-name){
+  @return map-get($colors, $color-name);
+}
+/*section carte de fidélité*/
+.fidelité{
+    h1{
+      color: color(bleu);
+    }
+    li {
+      list-style: none;
+      line-height: 20px;
+    }
+    img{
+      display: none;
+    }
+}
+/*footer*/
+footer{
+  background-color: color(greenfooter);
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20%;
+    .reseaux-socio{
+      position: absolute;
+      bottom: 0;
+      left: 20%;
+        a:nth-child(3) img{
+          width: 80px;
+        }
+    }
+      ul{
+        margin-bottom: 50px;
+        li{
+        list-style: none;
+          a{
+            text-decoration: none;
+            color: color(white);
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            font-size: larger;
+              a:nth-child(2){
+                margin-bottom: 10px;
+                background-color: yellow;
+              }
+          }
+        }
+      }
+    p{
+      line-height: 5px;
+        }
+        .desa {
+          margin-top: 30px;
+            p{
+              line-height: 20px;
+            }
+            a{
+              color: color(bleu);
+            }
+          }
+}/*fin du footer*/
